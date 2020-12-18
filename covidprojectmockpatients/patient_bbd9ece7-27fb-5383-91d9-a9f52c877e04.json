@@ -1,0 +1,33 @@
+{
+  "resourceType": "Bundle",
+  "type": "collection",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "87a301a7-99f3-5776-94a6-43dd80852371",
+        "status": "final",
+        "effectiveDateTime": "2020-06-01T07:00:00-06:00",
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "364075005"
+            }
+          ]
+        },
+        "valueQuantity": {
+          "value": "Yes",
+          "unit": "beats/minute",
+          "system": "http://unitsofmeasure.org"
+        },
+        "subject": {
+          "type": "Patient",
+          "identifier": {
+            "value": "bbd9ece7-27fb-5383-91d9-a9f52c877e04"
+          }
+        }
+      }
+    }
+  ]
+}
